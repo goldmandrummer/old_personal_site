@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- Edited by Michael Goldman for use by Michael Goldman -->
+<html prefix="og: http://ogp.me/ns#"
+			xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+	<head>
+		<title>Software Design | Blog</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="A young developer's thoughts on proper software design." />
+		<meta name="keywords" content="Google,Google I/O,Google I/O Conference,Michael Goldman,Goldman,developer,blog" />
+		<meta property="og:image" content="http://goldmanmichael.com/images/diagram.jpg" />
+		<meta property="og:description" content="A young developer's thoughts on proper software design." />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery.scrollzer.min.js"></script>
+		<script src="../js/jquery.scrolly.min.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-layers.min.js"></script>
+		<script src="../js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<!-- Header -->
+				<section id="header" class="skel-layers-fixed">
+					<header>
+						<span class="image avatar"><img src="../images/circle-michael.png" alt="" /></span>
+						<h1 id="logo"><a href="http://goldmanmichael.com">Michael Goldman</a></h1>
+						<p>Student - Developer - Entrepreneur</p>
+					</header>
+					<nav id="nav">
+						<ul>
+							<li><a href="http://goldmanmichael.com">Home</a></li>
+							<li><a href="http://goldmanmichael.com/blog">All Posts</a></li>
+							<li></li>
+						</ul>
+					</nav>
+					<footer>
+						<ul class="icons">
+							<li>
+								<a href="https://www.linkedin.com/in/goldmanmichael1" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/GoldmanMichael" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a>
+							</li>
+							<li>
+								<a href="https://github.com/goldmandrummer" target="_blank" class="icon fa-github"><span class="label">Github</span></a>
+							</li>
+						</ul>
+					</footer>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+
+					<!-- One -->
+						<section id="one">
+							<div class="container">
+								<h3>Software Design</h3>
+
+								<img style="width: 35%; height: 35%; margin: 0 -2% 5% 3%" src="../images/diagram.jpg" alt="Software Design Diagram" class="pull-right">
+
+								<p>We all use software every day. We're seeing the results of many design decisions and a lot of hard work. So what all goes into designing software and what has to be taken into consideration by the creators? Let's take a closer look and I'll share with you some of what I love about software design.</p>
+
+								<p>Software (in any form) is generally intended to simplify a task for the user. In its early days, before it was ubiquitous, software (and technology in general) was allowed to be cumbersome or annoying because it was allowing people to do things that previously could not be done. Yet, in the modern world, so many things can already be done in one way or another thus the purpose of most software is to further simplify that task. Otherwise, it is useless and is tossed aside accordingly.</p>
+
+								<p>As developers and designers, this creates a very high standard for our work. Furthermore, with many products on the market that feel flawless and seamless when we use them, that is our standard in order to compete or to even get into the market space. In the market of software, consumers can very quickly determine if the product is of acceptable quality and, if not, they toss it aside. They can do that because they either have other options or they can happily do without. It is essentially "a buyer's market".</p>
+
+								<p>How can developers meet these high standards and create a successful product? I believe the key is to focus on the following four aspects (or layers) of the software:</p>
+								
+								<ol>
+									<li><b>Functionality:</b> The software must serve some purpose and correctly solve the problem at hand. Without functionality, you're making a mock up.</li>
+									<li><b>Efficiency:</b> So your software can do something, but can it do it well? Can it be faster? Can it use less memory? Can it consume less power?</li>
+									<li><b>User Experience (UX):</b> Your software works and works well, but how user friendly is it? Does it take a week for someone to learn how to use it properly? Or does it feel natural to the user?</li>
+									<li><b>User Interface (UI):</b> Okay, the software works well and is easy to use... Is it ugly? Does it look outdated? Is it the Space Jam website? (Check out the website for Space Jam the movie and you'll get the joke)</li>
+								</ol>
+
+								<p>You may be thinking of ways in which all of these aspects can overlap and in which case you would be correct, they do often overlap. However, we can break them apart for the purpose of discussion and even for early planning stages of software development.</p>
+
+								<p><b>Functionality</b> is something that seems very self explanatory, but a key point is to put yourself in the shoes of a user and think of all the things you would want (or expect) that software to be capable of doing. It's all too easy to get caught up in the development and get a sort of tunnel vision only focusing on the core tasks that your products hopes to accomplish. Remember that, in the modern world, a product that is not robust often is a bust.</p>
+
+								<p><b>Efficiency</b> is somewhat of a broad term that can include power consumption, speed, and space usage. I place this as the second most important concept because part of simplifying a task is to have it require less resources (including time). Your functionality may be solid and even unique but, if it takes five minutes to load, then people won't want to use it. Now, efficiency isn't separate code, but rather it's how well your code was designed. It is attached to your functionality. It is true that some data must be stored even just temporarily and that certain processes are inherently time consuming, but keep in mind the high expectations of users and put heavy focus on the efficiency of your code.</p>
+
+								<p><b>User experience</b> is something I find myself very interested in. When I use software, I poke around in all the menus and toolbars to see what I can do and how I can get the most out of the product or how I can customize it to best suit my desires. I should point out that user experience is, in a way, a bridge between the functionality and the user interface. The simplest way to think of it is really just the way the user feels when interacting with your product. As the creator of the software, you may have your own goals and priorities but you cannot afford to ignore those of your users. The challenge is to design your software in such a way that it serves the user and yourself simultaneously. There may be some portion that you want them to see but, if that gets in their way of seeing what they wanted, then they may lose interest entirely and you could lose a user.</p>
+
+								<p><b>User interface</b> is also something I've found real interest in. People are easily drawn in or repulsed by the appearance of many things including software. With that said, it seems most users don't consciously examine the UI but rather have this instinctive reaction. Clearly, the goal is to draw in users rather than repulse them. So, how do we do this? First and foremost, pay attention to the design of popular software or even some that are lesser known but that you love. Pick and choose aspects of those designs to best suit your software, then put your twist on it to make it unique and interesting. Put yourself in the shoes of a user and imagine what you would like or dislike. Keep in mind that it is nearly impossible to please everyone with your design, but try showing your work in progress to some people you know so you can get feedback and suggestions. It doesn't take a programmer to know what parts of the UI design are good or bad and outside opinions can always help.</p>
+
+
+								<p>All of these layers of software design go hand-in-hand to make software not just liked, but loved. If you want users to love your product, it will definitely need to solve a problem for them but it will also have to strike them as unique, make them feel comfortable using it, and show them why they need this in their life. To make this happen takes a lot of attention to detail, conscious decisions, and hard work making the vision a reality.</p>
+
+								<p>What have you noticed about software you use that you think they did really well?  What did they do badly?  What part of software design do you find most interesting?</p>
+
+							</div>
+						</section>
+
+				</div>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<ul class="copyright">
+							<li>&copy; Michael Goldman. All rights reserved.</li><li>Site template from <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</div>
+	</body>
+</html>
